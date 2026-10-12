@@ -1,0 +1,121 @@
+ * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans;
+}
+
+body {
+    background-color: beige;
+}
+
+.navbar {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+padding: 20px 300px;
+box-sizing: border-box;
+background-color:#ffefb8;
+grid-template-columns: repeat(5, 1fr);
+}
+.logo {
+color: rgb(48, 29, 5);
+font-size: 45px;
+font-style: bold;
+text-align: center;
+}
+.menu {
+display: flex;
+gap: 12px;
+list-style: none;
+}
+
+.menu {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+.hero-container {
+display: flex;
+align-items: center;
+gap: 20px;
+padding: 40px;
+justify-content: space-between;
+background-color: #9ed1f1;
+}
+.hero-text {
+color: #5e442e;
+}
+.hero-img img{
+width: 300px;
+border-radius: 12px;
+height: auto;
+}
+.btn-primary {
+background-color:
+rgb(14, 84, 189);
+padding: 12px 24px;
+border: none;
+border-radius: 10px;
+font-size:12px;
+color: white;
+cursor: pointer;
+}
+.judul-section {
+font-size: 35px;
+margin-bottom: 20px;
+color:rgb(48, 29, 5);
+text-align: center;
+}
+.grid-produk {
+display: flex;
+gap: 12px;
+justify-content: space-between;
+padding: 12px;
+}
+.kartu {
+display: flex;
+flex-direction: column;
+background-color:
+rgb(100, 176, 238);
+border: 1px solid;
+border-radius: 10px;
+padding: 12px;
+}
+.kartu img {
+width: 100%;
+border-radius: 12px;
+height: 400px;
+}
+.kartu h3 {
+font-size: 16px;
+margin-bottom: 6px;
+}
+.harga {
+color:
+black;
+font-weight: bold;
+margin-bottom: 12px;
+}
+.btn-kecil {
+margin-top: auto;
+color: white;
+background-color: rgb(14, 84, 189);
+border: none;
+padding: 8px 12px;
+border-radius: 6px;
+cursor: pointer;
+}
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+gap: 30px;
+padding: 20px 24px;
+box-sizing: border-box;
+background-color:#ffefb8;
+flex: wrap;
+}
+.sosial {
+display: flex;
+gap: 16px;
+}
